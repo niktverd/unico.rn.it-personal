@@ -63,9 +63,9 @@ blocks:
     size: 'l'
     media:
       light:
-        image: '/page-constructor/story-assets/img_8-12_white.png'
+        image: '/story-assets/img_8-12_white.png'
       dark:
-        image: '/page-constructor/story-assets/img_8-12_dark.png'
+        image: '/story-assets/img_8-12_dark.png'
     title: 'Why I Love Technology'
     description: >
       **Technology has no ceiling** - what seems impossible today becomes routine tomorrow. This constant evolution drives me to push boundaries.

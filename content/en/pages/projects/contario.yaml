@@ -32,10 +32,10 @@ blocks:
       title: 'Why Choose Contario'
       text: 'Our platform combines ease of use with powerful features, allowing anyone to create professional videos without technical skills or expensive software. From storage to direct social media publishing, we handle the entire workflow.'
       links:
-        - url: '#try-now'
+        - url: 'https://reels-creator-37e8b40e95d4.herokuapp.com'
           text: 'Try Now'
-          theme: 'normal'
-          arrow: true
+          label: false
+          # arrow: true
 
   - type: 'card-layout-block'
     title: 'Core Features'
@@ -75,27 +75,27 @@ blocks:
       - title: 'Social Media Stories'
         text: 'Vertical templates optimized for Instagram, Facebook, and TikTok stories with dynamic transitions and text animations.'
         icon:
-          light: '/page-constructor/story-assets/icon_1_light.svg'
+          light: '/story-assets/icon_1_light.svg'
       - title: 'Product Showcases'
         text: 'Professional templates designed to highlight product features and benefits with elegant transitions and text overlays.'
         icon:
-          light: '/page-constructor/story-assets/icon_2_light.svg'
+          light: '/story-assets/icon_2_light.svg'
       - title: 'Promotional Videos'
         text: 'Eye-catching promotional templates with call-to-action animations and attention-grabbing effects.'
         icon:
-          light: '/page-constructor/story-assets/icon_3_light.svg'
+          light: '/story-assets/icon_3_light.svg'
       - title: 'Travel Montages'
         text: 'Beautiful slideshow templates that transform your travel photos into cinematic journeys with map animations and location tags.'
         icon:
-          light: '/page-constructor/story-assets/icon_1_light.svg'
+          light: '/story-assets/icon_1_light.svg'
       - title: 'Business Presentations'
         text: 'Professional templates for corporate presentations with clean transitions, data visualization options, and branding capabilities.'
         icon:
-          light: '/page-constructor/story-assets/icon_2_light.svg'
+          light: '/story-assets/icon_2_light.svg'
       - title: 'Event Recaps'
         text: 'Templates designed to capture the highlights of events, with timeline features and emotional transitions.'
         icon:
-          light: '/page-constructor/story-assets/icon_3_light.svg'
+          light: '/story-assets/icon_3_light.svg'
 
   - type: 'info-block'
     title: 'How It Works'
@@ -105,12 +105,38 @@ blocks:
       title: 'Simple Three-Step Process'
       text: 'Contario makes video creation accessible to everyone with a straightforward process: upload your photos, select a template, and customize as needed. Our system handles the rendering and processing in the background, delivering a professional video in minutes that you can download or publish directly.'
       buttons:
-        - text: 'Watch Demo'
-          theme: 'raised'
-          url: '#'
+        # - text: 'Watch Demo'
+        #   theme: 'raised'
+        #   url: '#'
         - text: 'See Examples'
-          theme: 'outlined'
-          url: '#'
+          theme: 'raised'
+          url: 'https://reels-creator-37e8b40e95d4.herokuapp.com'
+
+  - type: 'media-block'
+    title: 'See Contario in Action'
+    description: 'Watch how easily photos transform into professional videos'
+    direction: 'media-content'
+    largeMedia: false
+    border: 'shadow'
+    playButton: true
+    size: 's'
+    media:
+      # height: 200px
+      autoplay: false
+      video:
+        controls: true
+        playButton: true
+        src:
+          # - 'https://firebasestorage.googleapis.com/v0/b/reels-creator-15261.appspot.com/o/Gj4FCvO8KhSNJMf1xZwX%2F20240221184952726-output.mp4?alt=media&token=54205df6-1279-4f8b-84f2-64446f052a47'
+          - '/story-assets/20240211165722627-output.mp4'
+        loop:
+          start: 0
+
+    # additionalInfo: 'Contario handles everything from animation to transitions, making video creation effortless'
+    buttons:
+      - text: 'Try it Yourself'
+        theme: 'raised'
+        url: 'https://reels-creator-37e8b40e95d4.herokuapp.com'
 
   - type: 'card-layout-block'
     title: 'Use Cases'
@@ -144,7 +170,7 @@ blocks:
       - type: 'layout-item'
         content:
           title: 'AI-Enhanced Editing'
-          text: 'Smart image enhancement and automatic content arrangement based on visual hierarchy and composition principles.'
+          text: 'Implementation of advanced AI models to handle increasingly complex data sources and unstructured content.'
       - type: 'layout-item'
         content:
           title: 'Audio Library'
@@ -159,8 +185,8 @@ blocks:
           text: 'Collaborative features allowing teams to work together on video projects with commenting and approval workflows.'
       - type: 'layout-item'
         content:
-          title: 'Advanced Analytics'
-          text: 'Comprehensive insights into video performance across platforms to optimize your content strategy.'
+          title: 'Enhanced Data Enrichment'
+          text: 'Advanced capabilities to augment parsed data with relevant information from complementary sources.'
       - type: 'layout-item'
         content:
           title: 'White-Label Solutions'
@@ -176,4 +202,5 @@ blocks:
     subtitle: 'Transform your photos into professional videos in minutes with Contario.'
     button:
       text: 'Get Started'
-      url: '/contact'
+      theme: 'raised'
+      url: 'https://reels-creator-37e8b40e95d4.herokuapp.com'

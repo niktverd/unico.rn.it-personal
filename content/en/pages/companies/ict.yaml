@@ -75,27 +75,27 @@ blocks:
       - title: 'Sfere Electric Certification'
         text: 'Successfully helped Sfere Electric obtain certification for their smart energy meters in the Kazakhstan market.'
         icon:
-          light: '/page-constructor/story-assets/icon_1_light.svg'
+          light: '/story-assets/icon_1_light.svg'
       - title: 'Data Center Development'
         text: 'Attracted investment for the design and projection of modern data centers in strategic locations throughout Kazakhstan.'
         icon:
-          light: '/page-constructor/story-assets/icon_2_light.svg'
+          light: '/story-assets/icon_2_light.svg'
       - title: 'Renewable Energy Initiative'
         text: 'Facilitated partnerships between international renewable energy providers and local infrastructure projects.'
         icon:
-          light: '/page-constructor/story-assets/icon_3_light.svg'
+          light: '/story-assets/icon_3_light.svg'
       - title: 'Smart City Technologies'
         text: 'Connected international smart city solution providers with urban development initiatives in Kazakhstan.'
         icon:
-          light: '/page-constructor/story-assets/icon_1_light.svg'
+          light: '/story-assets/icon_1_light.svg'
       - title: 'Kazakhstan-China Industrial Projects'
         text: 'Facilitated joint ventures between Kazakhstan industrial companies and Chinese technology providers.'
         icon:
-          light: '/page-constructor/story-assets/icon_2_light.svg'
+          light: '/story-assets/icon_2_light.svg'
       - title: 'Digital Banking Solutions'
         text: 'Helped international fintech companies integrate their solutions with Kazakhstan banking system.'
         icon:
-          light: '/page-constructor/story-assets/icon_3_light.svg'
+          light: '/story-assets/icon_3_light.svg'
 
   - type: 'info-block'
     title: 'Strategic Focus Areas'

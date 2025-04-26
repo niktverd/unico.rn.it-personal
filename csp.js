@@ -2,6 +2,7 @@ const isDev = process.env.NODE_ENV === 'development';
 
 const YOUTUBE = 'www.youtube.com';
 const ASSETS_STORAGE = 'https://storage.yandexcloud.net';
+const FIREBASE_STORAGE = 'firebasestorage.googleapis.com';
 const YANDEX_FORMS = 'forms.yandex.ru';
 
 const policiesConfig = {
@@ -12,14 +13,15 @@ const policiesConfig = {
     'object-src': ["'self'", 'data:'],
     'style-src-elem': ["'self'", "'unsafe-inline'"],
     'style-src-attr': ["'self'", "'unsafe-inline'"],
-    'img-src': ["'self'", ASSETS_STORAGE, 'data:'],
+    'img-src': ["'self'", ASSETS_STORAGE, 'data:', FIREBASE_STORAGE],
     'font-src': ["'self'"],
-    'child-src': ["'self'", YOUTUBE],
-    'frame-src': ["'self'", YOUTUBE],
+    'child-src': ["'self'", YOUTUBE, FIREBASE_STORAGE],
+    'frame-src': ["'self'", YOUTUBE, FIREBASE_STORAGE],
     'child-src': ["'self'", YANDEX_FORMS],
     'frame-src': ["'self'", YANDEX_FORMS],
     'frame-ancestors': ["'self'"],
-    'connect-src': ["'self'"],
+    'connect-src': ["'self'", FIREBASE_STORAGE],
+    'video-src': ["'self'", YOUTUBE, FIREBASE_STORAGE],
 };
 
 const getCSP = (config) =>

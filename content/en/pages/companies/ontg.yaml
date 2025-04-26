@@ -75,27 +75,27 @@ blocks:
       - title: 'Birch Veneer Export'
         text: 'Contract management and logistics for high-quality birch veneer exports from Kazakhstan to Turkey, meeting European quality standards for furniture manufacturing.'
         icon:
-          light: '/page-constructor/story-assets/icon_1_light.svg'
+          light: '/story-assets/icon_1_light.svg'
       - title: 'Power Supply Systems Import'
         text: 'Importation of independent power supply systems from China to Kazakhstan, providing reliable energy solutions for remote and industrial applications.'
         icon:
-          light: '/page-constructor/story-assets/icon_2_light.svg'
+          light: '/story-assets/icon_2_light.svg'
       - title: 'Crop Export to China'
         text: 'Facilitation of agricultural exports from Kazakhstan to Chinese markets, including wheat, barley, and oilseeds, with compliance management for phytosanitary requirements.'
         icon:
-          light: '/page-constructor/story-assets/icon_3_light.svg'
+          light: '/story-assets/icon_3_light.svg'
       - title: 'Motor Oil Import'
         text: 'Strategic partnership with Norwegian manufacturers to import premium motor oils and lubricants to the Kazakhstan market, with distribution to automotive and industrial sectors.'
         icon:
-          light: '/page-constructor/story-assets/icon_1_light.svg'
+          light: '/story-assets/icon_1_light.svg'
       - title: 'Construction Materials Export'
         text: 'Export of Kazakhstan-produced construction materials to Central Asian markets, providing quality building supplies to growing infrastructure projects.'
         icon:
-          light: '/page-constructor/story-assets/icon_2_light.svg'
+          light: '/story-assets/icon_2_light.svg'
       - title: 'Consumer Electronics Import'
         text: 'Import and distribution of consumer electronics from Southeast Asian manufacturers to Kazakhstan retail networks, with warranty and after-sales support.'
         icon:
-          light: '/page-constructor/story-assets/icon_3_light.svg'
+          light: '/story-assets/icon_3_light.svg'
 
   - type: 'info-block'
     title: 'Market Expertise'

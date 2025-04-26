@@ -75,27 +75,27 @@ blocks:
       - title: 'E-commerce Platforms'
         text: 'Access product data, pricing, inventory, and reviews from major marketplaces including Amazon, eBay, Alibaba, and vertical-specific retailers.'
         icon:
-          light: '/page-constructor/story-assets/icon_1_light.svg'
+          light: '/story-assets/icon_1_light.svg'
       - title: 'Financial Markets'
         text: 'Parse real-time and historical stock prices, economic indicators, company financials, and market news from trusted financial sources.'
         icon:
-          light: '/page-constructor/story-assets/icon_2_light.svg'
+          light: '/story-assets/icon_2_light.svg'
       - title: 'Social Media'
         text: 'Extract trends, mentions, sentiment data, and audience metrics from major social platforms while respecting platform policies.'
         icon:
-          light: '/page-constructor/story-assets/icon_3_light.svg'
+          light: '/story-assets/icon_3_light.svg'
       - title: 'Public Records'
         text: 'Access government databases, legal records, property information, and public filings from various jurisdictions in structured format.'
         icon:
-          light: '/page-constructor/story-assets/icon_1_light.svg'
+          light: '/story-assets/icon_1_light.svg'
       - title: 'Industry Research'
         text: 'Parse specialized industry reports, academic publications, and research databases with customized field extraction.'
         icon:
-          light: '/page-constructor/story-assets/icon_2_light.svg'
+          light: '/story-assets/icon_2_light.svg'
       - title: 'News & Media'
         text: 'Stay informed with parsed news articles, press releases, and media mentions from thousands of sources worldwide.'
         icon:
-          light: '/page-constructor/story-assets/icon_3_light.svg'
+          light: '/story-assets/icon_3_light.svg'
 
   - type: 'info-block'
     title: 'Our Technology'
