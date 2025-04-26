@@ -1,46 +1,63 @@
 header:
   leftItems:
-    - text: Pages
+    - text: Projects
       type: 'dropdown'
       items:
-        - text: 'Page 1'
-          url: 'pages/page-1'
-        - text: 'Page 2'
-          url: 'pages/page-2'
-    - text: Page 3
-      url: 'page-3'
+        - text: 'Squirell Data Feed'
+          url: 'projects/squirell-data-feed'
+        - text: 'Contario'
+          url: 'projects/contario'
+    - text: Companies
+      type: 'dropdown'
+      items:
+        - text: 'ON Trade Group'
+          url: 'companies/ontg'
+        - text: 'IC Temir'
+          url: 'companies/ict'
+        - text: 'Carcentre.kz'
+          url: 'companies/carcentre'
+    # - text: Page 3
+    #   url: 'page-3'
   rightItems:
     - text: 'Github'
-      url: 'https://github.com/unico.rn.it'
+      url: 'https://github.com/niktverd'
       icon: 'https://storage.yandexcloud.net/cloud-www-assets/constructor/storybook/icons/git.svg'
-    - type: 'button'
-      text: 'Documentation'
-      url: 'https://github.com/unico.rn.it'
-      theme: pseudo
+    # - type: 'button'
+    #   text: 'Documentation'
+    #   url: 'https://github.com/unico.rn.it'
+    #   theme: pseudo
 
 logo:
   icon: '/logo.svg'
   text: 'Unicorn it'
 
-footer:
-  underline:
-    links:
-      - text: The MIT License
-        url: 'https://github.com/unico.rn.it/LICENSE'
-    copyright: '© 2024 Unico.rn.it'
-  social:
-    - type: 'social'
-      icon: 'https://storage.yandexcloud.net/cloud-www-assets/constructor/storybook/icons/git.svg'
-      url: 'https://github.com/unico.rn.it'
-  columns:
-    - title: Pages
-      links:
-        - text: 'Page 1'
-          url: '/pages/page-1'
-        - text: 'Page 2'
-          url: '/pages/page-2'
-        - text: 'Page-3'
-          url: '/page-3'
+# footer:
+#   underline:
+#     links:
+#       - text: The MIT License
+#         url: 'https://github.com/unico.rn.it/LICENSE'
+#     copyright: '© 2024 Unico.rn.it'
+#   social:
+#     - type: 'social'
+#       icon: 'https://storage.yandexcloud.net/cloud-www-assets/constructor/storybook/icons/git.svg'
+#       url: 'https://github.com/unico.rn.it'
+#   columns:
+#     - title: Projects
+#       links:
+#         - text: 'Squirell Data Feed'
+#           url: '/projects/squirell-data-feed'
+#         - text: 'Page 2'
+#           url: '/pages/page-2'
+#         - text: 'Page-3'
+#           url: '/page-3'
+#     - title: Compnanies
+#       links:
+#         - text: 'Squirell Data Feed'
+#           url: '/projects/squirell-data-feed'
+#         - text: 'Page 2'
+#           url: '/pages/page-2'
+#         - text: 'Page-3'
+#           url: '/page-3'
 
 meta:
   title: Unico.rn.it

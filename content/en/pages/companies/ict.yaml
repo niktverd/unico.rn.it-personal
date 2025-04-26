@@ -1,0 +1,154 @@
+meta:
+  title: Investment Company Temir (ICT)
+  description: Leading technology and investment facilitation company in Kazakhstan
+  sharing:
+    title: Investment Company Temir (ICT)
+    description: Bridging international investments and technology with Kazakhstan
+    keywords:
+      - Kazakhstan investments
+      - Technology import
+      - Energy sector
+      - Information Technology
+      - Government relations
+
+blocks:
+  - type: 'header-block'
+    title: 'Investment Company Temir'
+    description: 'Bridging international technologies and investments with Kazakhstan growing economy'
+    verticalOffset: 'm'
+    width: 's'
+    imageSize: 's'
+    image:
+      src: 'https://storage.yandexcloud.net/cloud-www-assets/constructor/storybook/images/img-bg_nopadding_4-12_light.png'
+
+  - type: 'info-block'
+    title: 'About ICT'
+    sectionsTitle: 'About ICT'
+    theme: 'light'
+    leftContent:
+      title: 'About ICT'
+      text: 'Investment Company Temir (ICT) specializes in facilitating technology imports and investments into Kazakhstan. With deep expertise in energy and information technology sectors, ICT serves as a strategic partner for international companies looking to establish or expand their presence in Kazakhstan.'
+    rightContent:
+      title: 'Key Strengths'
+      text: "Our success is built on our deep understanding of Kazakhstan's regulatory environment, strong government relationships, and technical expertise in key industrial sectors."
+      links:
+        - url: '#contact'
+          text: 'Contact Us'
+          theme: 'normal'
+          arrow: true
+
+  - type: 'card-layout-block'
+    title: 'Core Services'
+    description: 'Comprehensive solutions for international business in Kazakhstan'
+    children:
+      - type: 'layout-item'
+        content:
+          title: 'Technology Import Facilitation'
+          text: 'We streamline the process of importing advanced technologies into Kazakhstan, handling regulatory compliance and logistics.'
+      - type: 'layout-item'
+        content:
+          title: 'Investment Attraction'
+          text: 'We connect international investors with promising projects in Kazakhstan growing economy.'
+      - type: 'layout-item'
+        content:
+          title: 'Government Relations'
+          text: 'We bridge communication between international partners and Kazakhstan government agencies, facilitating productive partnerships.'
+      - type: 'layout-item'
+        content:
+          title: 'Certification Assistance'
+          text: 'We guide technology companies through Kazakhstan certification processes, ensuring compliance with local standards.'
+    colSizes:
+      all: 12
+      sm: 6
+      md: 6
+
+  - type: 'extended-features-block'
+    title:
+      text: 'Key Projects'
+      textSize: 'l'
+    description: 'Successfully implemented initiatives across Energy and IT sectors'
+    colSizes:
+      all: 12
+      sm: 6
+      md: 4
+    items:
+      - title: 'Sfere Electric Certification'
+        text: 'Successfully helped Sfere Electric obtain certification for their smart energy meters in the Kazakhstan market.'
+        icon:
+          light: '/page-constructor/story-assets/icon_1_light.svg'
+      - title: 'Data Center Development'
+        text: 'Attracted investment for the design and projection of modern data centers in strategic locations throughout Kazakhstan.'
+        icon:
+          light: '/page-constructor/story-assets/icon_2_light.svg'
+      - title: 'Renewable Energy Initiative'
+        text: 'Facilitated partnerships between international renewable energy providers and local infrastructure projects.'
+        icon:
+          light: '/page-constructor/story-assets/icon_3_light.svg'
+      - title: 'Smart City Technologies'
+        text: 'Connected international smart city solution providers with urban development initiatives in Kazakhstan.'
+        icon:
+          light: '/page-constructor/story-assets/icon_1_light.svg'
+      - title: 'Kazakhstan-China Industrial Projects'
+        text: 'Facilitated joint ventures between Kazakhstan industrial companies and Chinese technology providers.'
+        icon:
+          light: '/page-constructor/story-assets/icon_2_light.svg'
+      - title: 'Digital Banking Solutions'
+        text: 'Helped international fintech companies integrate their solutions with Kazakhstan banking system.'
+        icon:
+          light: '/page-constructor/story-assets/icon_3_light.svg'
+
+  - type: 'info-block'
+    title: 'Strategic Focus Areas'
+    sectionsTitle: 'Strategic Focus Areas'
+    theme: 'light'
+    leftContent:
+      title: 'Strategic Focus Areas'
+      text: 'ICT maintains a strategic focus on Energy and Information Technology sectors, recognizing their critical importance to Kazakhstan economic development. Our expertise in these areas allows us to provide specialized support to partners operating in these domains.'
+      buttons:
+        - text: 'Energy Projects'
+          theme: 'raised'
+          url: '#'
+        - text: 'IT Projects'
+          theme: 'outlined'
+          url: '#'
+
+  - type: 'card-layout-block'
+    title: 'Future Goals'
+    description: 'Strategic initiatives to drive Kazakhstan growth and development'
+    children:
+      - type: 'layout-item'
+        content:
+          title: 'Expand Digital Infrastructure'
+          text: 'Support the development of robust digital infrastructure throughout Kazakhstan to enable technological advancement.'
+      - type: 'layout-item'
+        content:
+          title: 'Energy Transition Support'
+          text: 'Facilitate Kazakhstan transition to more sustainable and efficient energy systems through targeted investments.'
+      - type: 'layout-item'
+        content:
+          title: 'Innovation Ecosystem'
+          text: 'Help establish a thriving innovation ecosystem by connecting international expertise with local talent.'
+      - type: 'layout-item'
+        content:
+          title: 'Regional Integration'
+          text: 'Strengthen Kazakhstan position as a regional technology and investment hub in Central Asia.'
+      - type: 'layout-item'
+        content:
+          title: 'Green Technology Transfer'
+          text: 'Facilitate the transfer of sustainable and environmentally friendly technologies into Kazakhstan market.'
+      - type: 'layout-item'
+        content:
+          title: 'Digital Government Initiatives'
+          text: 'Support Kazakhstan government digital transformation through international expertise and technology.'
+    colSizes:
+      all: 12
+      sm: 6
+      md: 4
+
+  - type: 'banner-block'
+    theme: 'light'
+    title: 'Partner With ICT'
+    subtitle: 'Let us help you navigate the Kazakhstan market and find opportunities for growth and collaboration.'
+    button:
+      text: 'Contact Us'
+      url: '/contact'

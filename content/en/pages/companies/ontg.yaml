@@ -1,0 +1,154 @@
+meta:
+  title: ON Trade Group
+  description: International trade infrastructure company based in Kazakhstan
+  sharing:
+    title: ON Trade Group
+    description: Facilitating cross-border trade between Kazakhstan and global markets
+    keywords:
+      - International trade
+      - Export infrastructure
+      - Kazakhstan trade
+      - Import solutions
+      - Supply chain
+
+blocks:
+  - type: 'header-block'
+    title: 'ON Trade Group'
+    description: 'Bridging Kazakhstan markets with international trade opportunities'
+    verticalOffset: 'm'
+    width: 's'
+    imageSize: 's'
+    image:
+      src: 'https://storage.yandexcloud.net/cloud-www-assets/constructor/storybook/images/img-bg_nopadding_4-12_light.png'
+
+  - type: 'info-block'
+    title: 'About ON Trade Group'
+    sectionsTitle: 'About ON Trade Group'
+    theme: 'light'
+    leftContent:
+      title: 'Our Company'
+      text: 'ON Trade Group provides comprehensive infrastructure for international goods sales and distribution. With our established networks and deep market expertise, we facilitate efficient cross-border trade between Kazakhstan and key global markets.'
+    rightContent:
+      title: 'Key Strengths'
+      text: 'Our competitive edge comes from our extensive local knowledge, established logistics networks, and ability to navigate complex international trade regulations and customs procedures.'
+      links:
+        - url: '#contact'
+          text: 'Partner With Us'
+          theme: 'normal'
+          arrow: true
+
+  - type: 'card-layout-block'
+    title: 'Core Services'
+    description: 'End-to-end trade solutions for international markets'
+    children:
+      - type: 'layout-item'
+        content:
+          title: 'Export Management'
+          text: 'We handle all aspects of exporting Kazakhstani goods to international markets, from documentation to logistics and final delivery.'
+      - type: 'layout-item'
+        content:
+          title: 'Import Solutions'
+          text: 'Our established networks allow us to efficiently import products from global suppliers into Kazakhstan, managing customs clearance and distribution.'
+      - type: 'layout-item'
+        content:
+          title: 'Trade Consulting'
+          text: 'We provide expert guidance on international trade regulations, market entry strategies, and logistics optimization.'
+      - type: 'layout-item'
+        content:
+          title: 'Supply Chain Management'
+          text: 'Our comprehensive supply chain solutions ensure reliable and cost-effective movement of goods across borders.'
+    colSizes:
+      all: 12
+      sm: 6
+      md: 6
+
+  - type: 'extended-features-block'
+    title:
+      text: 'Current Trade Operations'
+      textSize: 'l'
+    description: 'Key trade routes and product categories in our portfolio'
+    colSizes:
+      all: 12
+      sm: 6
+      md: 4
+    items:
+      - title: 'Birch Veneer Export'
+        text: 'Contract management and logistics for high-quality birch veneer exports from Kazakhstan to Turkey, meeting European quality standards for furniture manufacturing.'
+        icon:
+          light: '/page-constructor/story-assets/icon_1_light.svg'
+      - title: 'Power Supply Systems Import'
+        text: 'Importation of independent power supply systems from China to Kazakhstan, providing reliable energy solutions for remote and industrial applications.'
+        icon:
+          light: '/page-constructor/story-assets/icon_2_light.svg'
+      - title: 'Crop Export to China'
+        text: 'Facilitation of agricultural exports from Kazakhstan to Chinese markets, including wheat, barley, and oilseeds, with compliance management for phytosanitary requirements.'
+        icon:
+          light: '/page-constructor/story-assets/icon_3_light.svg'
+      - title: 'Motor Oil Import'
+        text: 'Strategic partnership with Norwegian manufacturers to import premium motor oils and lubricants to the Kazakhstan market, with distribution to automotive and industrial sectors.'
+        icon:
+          light: '/page-constructor/story-assets/icon_1_light.svg'
+      - title: 'Construction Materials Export'
+        text: 'Export of Kazakhstan-produced construction materials to Central Asian markets, providing quality building supplies to growing infrastructure projects.'
+        icon:
+          light: '/page-constructor/story-assets/icon_2_light.svg'
+      - title: 'Consumer Electronics Import'
+        text: 'Import and distribution of consumer electronics from Southeast Asian manufacturers to Kazakhstan retail networks, with warranty and after-sales support.'
+        icon:
+          light: '/page-constructor/story-assets/icon_3_light.svg'
+
+  - type: 'info-block'
+    title: 'Market Expertise'
+    sectionsTitle: 'Market Expertise'
+    theme: 'light'
+    leftContent:
+      title: 'Global Reach'
+      text: 'ON Trade Group has established strong trade relationships across key regions including China, Turkey, Europe, and the Middle East. Our market intelligence and partner network enable us to identify optimal trade opportunities and navigate regional requirements effectively.'
+      buttons:
+        - text: 'Trade Partners'
+          theme: 'raised'
+          url: '#'
+        - text: 'Market Reports'
+          theme: 'outlined'
+          url: '#'
+
+  - type: 'card-layout-block'
+    title: 'Future Growth Directions'
+    description: 'Strategic initiatives to expand our trade capabilities'
+    children:
+      - type: 'layout-item'
+        content:
+          title: 'Digital Trade Platform'
+          text: 'Development of a digital platform to streamline cross-border trade processes and connect Kazakhstani suppliers with international buyers.'
+      - type: 'layout-item'
+        content:
+          title: 'Green Energy Products'
+          text: 'Expansion into trade of renewable energy equipment and sustainable technologies to support Kazakhstan green transition.'
+      - type: 'layout-item'
+        content:
+          title: 'Value-Added Processing'
+          text: 'Investment in processing facilities to increase the value of Kazakhstan raw material exports through semi-finished and finished goods production.'
+      - type: 'layout-item'
+        content:
+          title: 'Eurasian Trade Hub'
+          text: 'Positioning Kazakhstan as a strategic trade hub between Asia and Europe, leveraging its location on the Belt and Road Initiative route.'
+      - type: 'layout-item'
+        content:
+          title: 'Agricultural Technology Import'
+          text: 'Focused import of advanced agricultural technologies to enhance Kazakhstan farming productivity and competitiveness.'
+      - type: 'layout-item'
+        content:
+          title: 'Manufacturing Exports'
+          text: 'Development of export channels for Kazakhstan emerging manufacturing sector, particularly in machinery and equipment components.'
+    colSizes:
+      all: 12
+      sm: 6
+      md: 4
+
+  - type: 'banner-block'
+    theme: 'light'
+    title: 'Partner With ON Trade Group'
+    subtitle: 'Let us help you navigate international markets and build successful cross-border trade relationships.'
+    button:
+      text: 'Contact Us'
+      url: '/contact'

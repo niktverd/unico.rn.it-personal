@@ -1,0 +1,179 @@
+meta:
+  title: Squirell Data Feed
+  description: Specialized data parsing solutions for businesses and developers
+  sharing:
+    title: Squirell Data Feed
+    description: Fast, reliable data extraction from any source
+    keywords:
+      - Data parsing
+      - Web scraping
+      - Data extraction
+      - API integration
+      - Data analytics
+
+blocks:
+  - type: 'header-block'
+    title: 'Squirell Data Feed'
+    description: 'Turn raw data sources into structured, actionable insights'
+    verticalOffset: 'm'
+    width: 's'
+    imageSize: 's'
+    image:
+      src: 'https://storage.yandexcloud.net/cloud-www-assets/constructor/storybook/images/img-bg_nopadding_4-12_light.png'
+
+  - type: 'info-block'
+    title: 'About Squirell Data Feed'
+    sectionsTitle: 'About Squirell Data Feed'
+    theme: 'light'
+    leftContent:
+      title: 'Our Platform'
+      text: 'Squirell Data Feed specializes in creating custom data parsing solutions that transform unstructured data into clean, structured formats. We handle the complex technical challenges of data extraction so you can focus on analysis and decision-making.'
+    rightContent:
+      title: 'Why Choose Us'
+      text: 'Our extensive library of pre-built parsers allows for immediate access to popular data sources, while our custom development team can tackle even the most challenging extraction projects with precision and speed.'
+      links:
+        - url: '#contact'
+          text: 'Request a Demo'
+          theme: 'normal'
+          arrow: true
+
+  - type: 'card-layout-block'
+    title: 'Our Services'
+    description: 'Comprehensive data extraction solutions for every need'
+    children:
+      - type: 'layout-item'
+        content:
+          title: 'Ready-Made Data Feeds'
+          text: 'Access our library of pre-built parsers for immediate integration with popular platforms, databases, and websites.'
+      - type: 'layout-item'
+        content:
+          title: 'Custom Parser Development'
+          text: 'We build specialized parsers tailored to your unique data sources, whether proprietary databases, industry-specific platforms, or complex websites.'
+      - type: 'layout-item'
+        content:
+          title: 'API Integration'
+          text: 'Connect our parsed data directly with your existing systems through our flexible API, enabling seamless data flow across your organization.'
+      - type: 'layout-item'
+        content:
+          title: 'Data Transformation'
+          text: 'We clean, normalize, and structure extracted data according to your specifications, delivering it in your preferred format.'
+    colSizes:
+      all: 12
+      sm: 6
+      md: 6
+
+  - type: 'extended-features-block'
+    title:
+      text: 'Available Data Sources'
+      textSize: 'l'
+    description: 'Our extensive library of pre-built parsers ready for immediate use'
+    colSizes:
+      all: 12
+      sm: 6
+      md: 4
+    items:
+      - title: 'E-commerce Platforms'
+        text: 'Access product data, pricing, inventory, and reviews from major marketplaces including Amazon, eBay, Alibaba, and vertical-specific retailers.'
+        icon:
+          light: '/page-constructor/story-assets/icon_1_light.svg'
+      - title: 'Financial Markets'
+        text: 'Parse real-time and historical stock prices, economic indicators, company financials, and market news from trusted financial sources.'
+        icon:
+          light: '/page-constructor/story-assets/icon_2_light.svg'
+      - title: 'Social Media'
+        text: 'Extract trends, mentions, sentiment data, and audience metrics from major social platforms while respecting platform policies.'
+        icon:
+          light: '/page-constructor/story-assets/icon_3_light.svg'
+      - title: 'Public Records'
+        text: 'Access government databases, legal records, property information, and public filings from various jurisdictions in structured format.'
+        icon:
+          light: '/page-constructor/story-assets/icon_1_light.svg'
+      - title: 'Industry Research'
+        text: 'Parse specialized industry reports, academic publications, and research databases with customized field extraction.'
+        icon:
+          light: '/page-constructor/story-assets/icon_2_light.svg'
+      - title: 'News & Media'
+        text: 'Stay informed with parsed news articles, press releases, and media mentions from thousands of sources worldwide.'
+        icon:
+          light: '/page-constructor/story-assets/icon_3_light.svg'
+
+  - type: 'info-block'
+    title: 'Our Technology'
+    sectionsTitle: 'Our Technology'
+    theme: 'light'
+    leftContent:
+      title: 'Advanced Parsing Infrastructure'
+      text: 'Squirell Data Feed utilizes distributed processing systems, machine learning algorithms, and robust proxy management to deliver reliable, high-volume data extraction. Our infrastructure automatically adapts to source changes and scales with your needs.'
+      buttons:
+        - text: 'Technical Specs'
+          theme: 'raised'
+          url: '#'
+        - text: 'API Documentation'
+          theme: 'outlined'
+          url: '#'
+
+  - type: 'card-layout-block'
+    title: 'Use Cases'
+    description: 'How organizations leverage our data parsing solutions'
+    children:
+      - type: 'layout-item'
+        content:
+          title: 'Competitive Intelligence'
+          text: 'Track competitor pricing, product offerings, and marketing strategies by extracting data from their digital presence.'
+      - type: 'layout-item'
+        content:
+          title: 'Market Research'
+          text: 'Gather comprehensive market data to identify trends, opportunities, and customer preferences across industries.'
+      - type: 'layout-item'
+        content:
+          title: 'Investment Analysis'
+          text: 'Access structured financial data from multiple sources to inform investment decisions and portfolio management.'
+      - type: 'layout-item'
+        content:
+          title: 'Lead Generation'
+          text: 'Extract contact information and company details to build targeted prospect lists for your sales and marketing efforts.'
+    colSizes:
+      all: 12
+      sm: 6
+      md: 6
+
+  - type: 'card-layout-block'
+    title: 'Future Roadmap'
+    description: 'Upcoming developments and expansions'
+    children:
+      - type: 'layout-item'
+        content:
+          title: 'AI-Powered Data Extraction'
+          text: 'Implementation of advanced AI models to handle increasingly complex data sources and unstructured content.'
+      - type: 'layout-item'
+        content:
+          title: 'Real-time Processing Pipeline'
+          text: 'Enhanced infrastructure for instantaneous data delivery with sub-second latency for time-sensitive applications.'
+      - type: 'layout-item'
+        content:
+          title: 'Self-Service Parser Builder'
+          text: 'User-friendly interface allowing clients to create and deploy custom parsers without coding knowledge.'
+      - type: 'layout-item'
+        content:
+          title: 'Industry-Specific Solutions'
+          text: 'Specialized parsing packages tailored for healthcare, legal, real estate, and other vertical markets.'
+      - type: 'layout-item'
+        content:
+          title: 'Enhanced Data Enrichment'
+          text: 'Advanced capabilities to augment parsed data with relevant information from complementary sources.'
+      - type: 'layout-item'
+        content:
+          title: 'Global Data Coverage'
+          text: 'Expansion of our parser library to cover additional international markets and region-specific data sources.'
+    colSizes:
+      all: 12
+      sm: 6
+      md: 4
+
+  - type: 'banner-block'
+    theme: 'light'
+    title: 'Ready to Transform Your Data Pipeline?'
+    subtitle: 'Get immediate access to the data you need with Squirell Data Feed.'
+    button:
+      text: 'Start Your Project'
+      url: '/contact'

@@ -1,61 +1,208 @@
 meta:
-  title: Unico.rn.it
-  description: A serial Tech Entrepreneur promotion website
+  title: Nikolay Tverdokhlebov | Unicorn IT
+  description: Serial Tech Entrepreneur building unicorn companies
   sharing:
-    title: Unico.rn.it
-    description: A serial Tech Entrepreneur promotion website
+    title: Nikolay Tverdokhlebov | Unicorn IT
+    description: Join a visionary entrepreneur on a mission to transform industries through technology
     image: 'https://storage.yandexcloud.net/cloud-www-assets/constructor/storybook/images/header-bg-video_light.png'
     keywords:
-      - tech
-      - entrepreneur
-      - unico.rn.it
+      - tech entrepreneur
+      - unicorn companies
+      - Nikolay Tverdokhlebov
+      - innovation
+      - technology
+      - startups
 
 background:
   image: 'https://storage.yandexcloud.net/cloud-www-assets/constructor/storybook/images/header-bg-video_light.png'
-  height: 660
+  height: 700
   animated: true
-  parallax: false
+  parallax: true
 
 blocks:
   - type: 'header-block'
-    title: 'Unico.rn.it'
-    description: 'A serial Tech Entrepreneur promotion website'
+    title: 'Nikolay Tverdokhlebov'
+    description: 'Unicorn IT'
     verticalOffset: 'xl'
-    width: 's'
+    width: 'm'
     buttons:
-      - text: 'Documentation'
+      - text: 'Join My Projects'
         size: 'promo'
         theme: 'accent'
-        url: 'https://github.com/unico.rn.it'
+        url: '#contact'
+      - text: 'Learn More'
+        size: 'promo'
+        theme: 'outlined'
+        url: '#vision'
 
-  - type: 'slider-block'
-    dots: true
-    arrows: true
+  - type: 'content-layout-block'
+    properties:
+      centered: true
+      textWidth: 'l'
+    textContent:
+      title: 'My Vision'
+      text: >
+        I believe that technology is the most powerful catalyst for positive change in today's world. Throughout my career,
+        I've focused on creating companies that don't just generate profits, but fundamentally transform how industries operate
+        and how people live.
+        My mission is simple yet ambitious: build unicorn companies that leverage cutting-edge technology to solve complex
+        problems at scale. Each venture I undertake aims to create exponential value by identifying inefficiencies in
+        traditional markets and introducing innovative solutions that redefine what's possible.
+      links:
+        - text: 'Learn more'
+          url: 'https://example.com/more'
+      buttons:
+        - text: 'Get Started'
+          url: 'https://example.com/start'
+          theme: 'normal'
+          size: 'm'
+
+  - type: 'media-block'
+    largeMedia: false
+    mediaOnly: false
+    size: 'l'
+    media:
+      light:
+        image: '/page-constructor/story-assets/img_8-12_white.png'
+      dark:
+        image: '/page-constructor/story-assets/img_8-12_dark.png'
+    title: 'Why I Love Technology'
+    description: >
+      **Technology has no ceiling** - what seems impossible today becomes routine tomorrow. This constant evolution drives me to push boundaries.
+
+      Software can [scale instantly](#) to billions of users, creating unprecedented opportunities to positively impact lives worldwide.
+
+      The digital realm offers infinite creative possibilities, allowing us to build solutions limited only by our imagination.
+
+      Technology companies can grow at rates unimaginable in traditional industries, creating massive value in compressed timeframes.
+
+  - type: 'card-layout-block'
+    title: 'What I Believe'
+    colSizes:
+      all: 12
+      md: 12
+    border: 'none'
     children:
-      - type: 'background-card'
-        title: 'Based on Next.js'
-        text: 'Use all power of Next.js to create scalable websites with SSR support'
-        background:
-          src: 'https://storage.yandexcloud.net/cloud-www-assets/constructor/storybook/images/img-bg_nopadding_4-12_light.png'
-          alt: 'card-background'
-          disableCompress: true
-        url: 'https://nextjs.org/'
-        paddingBottom: 'l'
-      - type: 'background-card'
-        title: 'Page-constructor engine'
-        text: "Build pages of your website with blocks from constructor kit and manage it's content and apperance with simple text configs"
-        background:
-          src: 'https://storage.yandexcloud.net/cloud-www-assets/constructor/storybook/images/img-bg_nopadding_4-12_light.png'
-          alt: 'card-background'
-          disableCompress: true
-        url: 'https://github.com/gravity-ui/page-constructor'
-        paddingBottom: 'l'
-      - type: 'background-card'
-        title: 'Quick launch'
-        text: "Configure data source and you're ready for production"
-        background:
-          src: 'https://storage.yandexcloud.net/cloud-www-assets/constructor/storybook/images/img-bg_nopadding_4-12_light.png'
-          alt: 'card-background'
-          disableCompress: true
-        url: '#'
-        paddingBottom: 'l'
+      - type: 'quote'
+        border: 'shadow'
+        theme: 'light'
+        text: "Technology is not just about building products - it's about reimagining what's possible and creating new realities that improve how we live, work, and connect."
+        author:
+          firstName: 'Nikolay'
+          secondName: 'Tverdokhlebov'
+          description: 'Founder, Unicorn IT'
+        color: 'rgba(240, 240, 245, 0.6)'
+        button:
+          text: 'Learn More'
+          theme: 'outlined-contrast'
+          url: '#vision'
+          urlTitle: 'My Philosophy'
+
+  - type: 'content-layout-block'
+    properties:
+      centered: false
+      textWidth: 'l'
+    textContent:
+      title: 'My Approach'
+      text: >
+        **Identify Transformation Opportunities**
+
+        I look for industries ripe for disruption - areas where established players have failed to innovate
+        and where technology can create step-change improvements in efficiency, cost, or user experience.
+
+        **Assemble Elite Teams**
+
+        Success depends on bringing together exceptional talent. I build diverse teams of engineers, designers,
+        product specialists and business experts who share a passion for solving complex problems.
+
+        **Embrace Data-Driven Decision Making**
+
+        Every significant decision is backed by data. This disciplined approach minimizes risk and
+        accelerates our path to product-market fit.
+
+        **Scale Strategically**
+
+        After validating our solutions, we expand rapidly but methodically, ensuring our technology
+        and organization can support exponential growth.
+      buttons:
+        - text: 'View Our Process'
+          theme: 'action'
+          url: '#'
+        - text: 'Join Our Team'
+          theme: 'outlined'
+          url: '#contact'
+
+  - type: 'cards-block'
+    title: 'Why Join My Projects'
+    description: 'Compelling reasons to be part of our journey'
+    cards:
+      - title: 'For Investors'
+        text: 'Access early-stage opportunities in ventures with unicorn potential. I focus on large markets with demonstrated traction and clear paths to significant returns.'
+        url: '#contact'
+        theme: 'light'
+      - title: 'For Developers'
+        text: 'Work on challenging problems using cutting-edge technologies. Build systems that scale to millions of users and make a real difference in the world.'
+        url: '#contact'
+        theme: 'light'
+      - title: 'For Designers'
+        text: 'Create intuitive, beautiful experiences that delight users. Your work will directly impact how people interact with transformative technologies.'
+        url: '#contact'
+        theme: 'light'
+      - title: 'For Managers'
+        text: 'Lead high-performing teams working on projects with genuine significance. Develop your career in a fast-paced environment focused on excellence.'
+        url: '#contact'
+        theme: 'light'
+      - title: 'For Engineers'
+        text: "Solve complex technical challenges that push the boundaries of what's possible. Your innovations will form the backbone of products used by countless people."
+        url: '#contact'
+        theme: 'light'
+
+  - type: 'quote-block'
+    quote: "The most successful companies of tomorrow won't just incrementally improve on today's solutions - they'll fundamentally reimagine how we approach problems."
+    author: 'Nikolay Tverdokhlebov'
+    width: 'l'
+    backgroundColor: 'rgba(240, 240, 245, 0.6)'
+    paddingTop: 'xl'
+    paddingBottom: 'xl'
+
+  - type: 'content-layout-block'
+    properties:
+      centered: true
+      textWidth: 'l'
+    textContent:
+      title: 'The Future I See'
+      text: >
+        We stand at the dawn of an unprecedented technological revolution. AI, blockchain, quantum computing,
+        and other emerging technologies will transform society more profoundly than the internet itself.
+
+        I believe the next decade will see more innovation than the previous century combined. The companies
+        that thrive will be those that embrace this change and channel it toward solving humanity's most
+        significant challenges.
+
+        My goal is to be at the forefront of this transformation, building ventures that don't just
+        succeed in this new landscape but help shape it for the better.
+      buttons:
+        - text: 'Explore Opportunities'
+          theme: 'action'
+          url: '#contact'
+
+  - type: 'form-block'
+    title: 'Connect With Me'
+    anchor:
+      id: 'contact'
+    direction: 'content-form'
+    formData:
+      yandex:
+        theme: cloud-www
+        id: 652eca2fe010db0ee78043b3
+        customFormSection: u
+    textContent:
+      title: 'Ready to Join Forces?'
+      text: >
+        One of the most efficient ways to get in touch is through this form. 
+        I review all submissions personally and respond promptly to serious inquiries about 
+        investments, partnerships, and career opportunities.
+      buttons:
+        - text: 'View My LinkedIn'
+          theme: 'outlined'
+          url: 'https://linkedin.com/in/niktverd'

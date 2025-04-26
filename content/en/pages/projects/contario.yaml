@@ -1,0 +1,179 @@
+meta:
+  title: Contario | Transform Photos into Engaging Videos
+  description: Automated video creation service with templates, storage, and social media publishing
+  sharing:
+    title: Contario | Photo to Video Transformation
+    description: Create professional short videos from your photos and images in minutes
+    keywords:
+      - Video creation
+      - Photo to video
+      - Social media content
+      - Video templates
+      - Content automation
+
+blocks:
+  - type: 'header-block'
+    title: 'Contario'
+    description: 'Transform your photos and images into engaging videos with customizable templates'
+    verticalOffset: 'm'
+    width: 's'
+    imageSize: 's'
+    image:
+      src: 'https://storage.yandexcloud.net/cloud-www-assets/constructor/storybook/images/img-bg_nopadding_4-12_light.png'
+
+  - type: 'info-block'
+    title: 'About Contario'
+    sectionsTitle: 'About Contario'
+    theme: 'light'
+    leftContent:
+      title: 'Video Creation Simplified'
+      text: 'Contario is a powerful service that transforms your static images and photos into dynamic, professional-quality videos. With our intuitive template system, you can create engaging content for social media, marketing, presentations, and more in just minutes, not hours.'
+    rightContent:
+      title: 'Why Choose Contario'
+      text: 'Our platform combines ease of use with powerful features, allowing anyone to create professional videos without technical skills or expensive software. From storage to direct social media publishing, we handle the entire workflow.'
+      links:
+        - url: '#try-now'
+          text: 'Try Now'
+          theme: 'normal'
+          arrow: true
+
+  - type: 'card-layout-block'
+    title: 'Core Features'
+    description: 'Everything you need to transform photos into compelling videos'
+    children:
+      - type: 'layout-item'
+        content:
+          title: 'Template-Based Creation'
+          text: 'Choose from dozens of professionally designed templates optimized for different platforms and purposes.'
+      - type: 'layout-item'
+        content:
+          title: 'Quick Processing'
+          text: 'Our advanced rendering engine creates your videos in minutes, not hours, without compromising on quality.'
+      - type: 'layout-item'
+        content:
+          title: 'Cloud Storage'
+          text: 'All your videos are securely stored on our cloud servers, accessible anytime and from any device.'
+      - type: 'layout-item'
+        content:
+          title: 'Direct Publishing'
+          text: 'Publish your finished videos directly to major social media platforms with just a few clicks.'
+    colSizes:
+      all: 12
+      sm: 6
+      md: 6
+
+  - type: 'extended-features-block'
+    title:
+      text: 'Video Template Library'
+      textSize: 'l'
+    description: 'Professional templates for every need and platform'
+    colSizes:
+      all: 12
+      sm: 6
+      md: 4
+    items:
+      - title: 'Social Media Stories'
+        text: 'Vertical templates optimized for Instagram, Facebook, and TikTok stories with dynamic transitions and text animations.'
+        icon:
+          light: '/page-constructor/story-assets/icon_1_light.svg'
+      - title: 'Product Showcases'
+        text: 'Professional templates designed to highlight product features and benefits with elegant transitions and text overlays.'
+        icon:
+          light: '/page-constructor/story-assets/icon_2_light.svg'
+      - title: 'Promotional Videos'
+        text: 'Eye-catching promotional templates with call-to-action animations and attention-grabbing effects.'
+        icon:
+          light: '/page-constructor/story-assets/icon_3_light.svg'
+      - title: 'Travel Montages'
+        text: 'Beautiful slideshow templates that transform your travel photos into cinematic journeys with map animations and location tags.'
+        icon:
+          light: '/page-constructor/story-assets/icon_1_light.svg'
+      - title: 'Business Presentations'
+        text: 'Professional templates for corporate presentations with clean transitions, data visualization options, and branding capabilities.'
+        icon:
+          light: '/page-constructor/story-assets/icon_2_light.svg'
+      - title: 'Event Recaps'
+        text: 'Templates designed to capture the highlights of events, with timeline features and emotional transitions.'
+        icon:
+          light: '/page-constructor/story-assets/icon_3_light.svg'
+
+  - type: 'info-block'
+    title: 'How It Works'
+    sectionsTitle: 'How It Works'
+    theme: 'light'
+    leftContent:
+      title: 'Simple Three-Step Process'
+      text: 'Contario makes video creation accessible to everyone with a straightforward process: upload your photos, select a template, and customize as needed. Our system handles the rendering and processing in the background, delivering a professional video in minutes that you can download or publish directly.'
+      buttons:
+        - text: 'Watch Demo'
+          theme: 'raised'
+          url: '#'
+        - text: 'See Examples'
+          theme: 'outlined'
+          url: '#'
+
+  - type: 'card-layout-block'
+    title: 'Use Cases'
+    description: 'How different creators and businesses leverage Contario'
+    children:
+      - type: 'layout-item'
+        content:
+          title: 'Social Media Creators'
+          text: 'Transform photo shoots into engaging video content for higher engagement and reach across platforms.'
+      - type: 'layout-item'
+        content:
+          title: 'E-commerce Businesses'
+          text: 'Create dynamic product videos from product photos to boost conversion rates and showcase features.'
+      - type: 'layout-item'
+        content:
+          title: 'Real Estate Agents'
+          text: 'Turn property photos into virtual tours with location information and property details.'
+      - type: 'layout-item'
+        content:
+          title: 'Marketing Agencies'
+          text: 'Quickly produce client deliverables with professional quality without extensive video production resources.'
+    colSizes:
+      all: 12
+      sm: 6
+      md: 6
+
+  - type: 'card-layout-block'
+    title: 'Upcoming Features'
+    description: 'Exciting new additions in active development'
+    children:
+      - type: 'layout-item'
+        content:
+          title: 'AI-Enhanced Editing'
+          text: 'Smart image enhancement and automatic content arrangement based on visual hierarchy and composition principles.'
+      - type: 'layout-item'
+        content:
+          title: 'Audio Library'
+          text: 'Extensive library of royalty-free music and sound effects to complement your videos with perfect audio.'
+      - type: 'layout-item'
+        content:
+          title: 'Custom Animation Builder'
+          text: 'Create your own animation effects and transitions with an intuitive drag-and-drop interface.'
+      - type: 'layout-item'
+        content:
+          title: 'Team Collaboration'
+          text: 'Collaborative features allowing teams to work together on video projects with commenting and approval workflows.'
+      - type: 'layout-item'
+        content:
+          title: 'Advanced Analytics'
+          text: 'Comprehensive insights into video performance across platforms to optimize your content strategy.'
+      - type: 'layout-item'
+        content:
+          title: 'White-Label Solutions'
+          text: 'Enterprise options for agencies and businesses to offer Contario capabilities under their own brand.'
+    colSizes:
+      all: 12
+      sm: 6
+      md: 4
+
+  - type: 'banner-block'
+    theme: 'light'
+    title: 'Start Creating Compelling Videos Today'
+    subtitle: 'Transform your photos into professional videos in minutes with Contario.'
+    button:
+      text: 'Get Started'
+      url: '/contact'

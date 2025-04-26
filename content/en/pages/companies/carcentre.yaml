@@ -1,0 +1,140 @@
+meta:
+  title: Carcentre.kz | Auto parts and car maintenance software
+  description: Software solutions for auto parts sales and car maintenance in Kazakhstan
+  sharing:
+    title: Carcentre.kz | Auto parts and car maintenance software
+    description: Innovative technology to automate and streamline auto parts selection and sales
+    keywords:
+      - auto parts
+      - car maintenance
+      - Kazakhstan
+      - automotive software
+      - carcar.tech
+
+blocks:
+  - type: 'header-block'
+    title: 'Carcentre.kz'
+    description: 'Software solutions for auto parts sales and car maintenance'
+    verticalOffset: 'm'
+    width: 's'
+    imageSize: 's'
+    image:
+      src: 'https://storage.yandexcloud.net/cloud-www-assets/constructor/storybook/images/img-bg_nopadding_4-12_light.png'
+
+  - type: 'content-layout-block'
+    properties:
+      centered: true
+      textWidth: 'l'
+    textContent:
+      title: 'About Carcentre.kz'
+      text: >
+        Carcentre.kz (carcar.tech) provides software solutions for auto parts sales and car maintenance.
+        Our technology aims to solve the complex challenge of auto parts selection through automation and
+        AI-powered assistance, making the process more efficient and accessible for both businesses and consumers.
+
+  - type: 'content-layout-block'
+    properties:
+      centered: false
+      textWidth: 'l'
+    textContent:
+      title: 'Our Journey'
+      text: >
+        **December 2019 - January 2020: Lean Startup Approach**
+
+        We launched with a simple landing page to test market demand, invested just $5 in advertising, and recorded our first sale on day one - suspension bushings for a Mitsubishi ASX.
+
+        **February 2020: Early Growth**
+
+        We developed a basic application with a form interface, hired sales representatives, and began directing traffic to our platform.
+
+        **March - April 2020: Pandemic Challenges**
+
+        Despite the global lockdown, we continued operations until our team contracted COVID-19, resulting in a month of downtime.
+
+        **June 2020: Scaling Attempt**
+
+        We attempted to scale operations tenfold but faced significant challenges that revealed fundamental issues with our business model.
+
+        **July 2020: Critical Analysis**
+
+        We conducted a thorough analysis of our operations and reached crucial insights about the auto parts market.
+
+  - type: 'media-block'
+    largeMedia: false
+    mediaOnly: false
+    size: 'l'
+    media:
+      light:
+        image: 'https://storage.yandexcloud.net/cloud-www-assets/constructor/storybook/images/img-bg_nopadding_4-12_light.png'
+    title: 'Market Insight'
+    description: >
+      **The Auto Parts Challenge**
+
+      Unlike consumer products such as smartphones or cosmetics, auto parts require specialized expertise:
+
+      - Deep understanding of vehicle structure and mechanics
+      - Ability to interpret technical diagrams and schematics
+      - Critical thinking skills to ensure proper component selection
+
+      Our key discovery: selling auto parts online while assuming the costs of part selection expertise makes the business model fundamentally uncompetitive.
+
+  - type: 'cards-block'
+    title: 'Business Economics'
+    description: 'Evolution of our understanding'
+    cards:
+      - title: 'Initial Assumptions (January 2020)'
+        text: 'Average order: $27 | Customer acquisition cost: $8 | Margin: $7 | Break-even: Second sale'
+        theme: 'light'
+      - title: 'Reality (July 2020)'
+        text: 'Average order: $27 | Customer acquisition cost: $8 | Parts selection cost: $8 | Margin: $7 | Break-even: Never'
+        theme: 'light'
+
+  - type: 'quote-block'
+    quote: 'The cost of parts selection must approach zero for online auto parts sales to be truly competitive.'
+    author: 'Carcentre.kz Team'
+    width: 'l'
+    backgroundColor: 'rgba(240, 240, 245, 0.6)'
+    paddingTop: 'l'
+    paddingBottom: 'l'
+
+  - type: 'content-layout-block'
+    properties:
+      centered: false
+      textWidth: 'l'
+    textContent:
+      title: 'Our Solution'
+      text: >
+        To overcome the fundamental challenge in auto parts sales, we must either:
+
+        - Fully automate the parts selection process, or
+        - Develop copilot technology that dramatically increases human expert efficiency
+
+        Both approaches aim to drastically reduce the cost of parts selection while maintaining or improving accuracy.
+
+  - type: 'content-layout-block'
+    properties:
+      centered: false
+      textWidth: 'l'
+    textContent:
+      title: '2024: Project Relaunch'
+      text: >
+        We've returned to this challenge with advanced technological solutions:
+
+        - Deployed data parsers with 1,000 virtual machines per vehicle added to the service
+        - Developed sophisticated search algorithms using vectorization, bi-encoders, and cross-encoders
+        - Conducted user testing with our prototypes
+        - Continued development on AI-powered copilot technology to assist parts specialists
+
+  - type: 'cards-block'
+    title: 'Market Opportunity'
+    description: 'The auto parts industry represents a massive global opportunity'
+    cards:
+      - title: 'Kazakhstan'
+        text: '$500 million market'
+        theme: 'light'
+      - title: 'Russia'
+        text: '$40 billion market'
+        theme: 'light'
+      - title: 'Global'
+        text: '$500 billion market'
+        theme: 'light'
