@@ -19,8 +19,8 @@ header:
       theme: pseudo
 
 logo:
-  icon: ''
-  text: 'Unico.rn.it'
+  icon: '/logo.svg'
+  text: 'Unicorn it'
 
 footer:
   underline:

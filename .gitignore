@@ -9,7 +9,6 @@ node_modules
 # Generated content
 /build
 /out
-/public
 .next
 
 # Development
