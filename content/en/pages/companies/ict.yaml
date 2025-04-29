@@ -10,6 +10,7 @@ meta:
       - Energy sector
       - Information Technology
       - Government relations
+      - SaaS investments
 
 blocks:
   - type: 'header-block'
@@ -72,6 +73,10 @@ blocks:
       sm: 6
       md: 4
     items:
+      - title: 'Contario'
+        text: 'Recently invested in Contario, an innovative SaaS platform that transforms photos into engaging videos for marketing agencies, content creators, and bloggers.'
+        icon:
+          light: '/story-assets/icon_1_light.svg'
       - title: 'Sfere Electric Certification'
         text: 'Successfully helped Sfere Electric obtain certification for their smart energy meters in the Kazakhstan market.'
         icon:
@@ -97,13 +102,51 @@ blocks:
         icon:
           light: '/story-assets/icon_3_light.svg'
 
+  - type: 'media-block'
+    title: 'Accelerating Digital Content Creation'
+    description: |
+      **Contario** represents one of our most recent and significant investments in the SaaS technology space. This high-growth platform is revolutionizing digital content creation by enabling the transformation of static images into professional, dynamic videos in minutes rather than hours.
+
+      As a cloud-based SaaS solution, Contario addresses critical pain points for multiple industries:
+      • Marketing agencies seeking to deliver engaging client content at scale
+      • Content creators and bloggers needing to maintain consistent posting schedules
+      • E-commerce businesses showcasing products through video without expensive production
+      • Real estate agents creating virtual property tours from standard photography
+      • Social media managers requiring fresh, professional content with minimal technical expertise
+
+      The platform's core technology leverages template-based creation with advanced rendering engines, allowing anyone to produce professional-quality videos without technical skills or expensive software. Videos created with Contario achieve significantly higher engagement metrics across all major social platforms compared to static images.
+
+      Our investment in Contario aligns perfectly with ICT's strategy of supporting transformative digital technologies. The company has demonstrated impressive growth metrics since launch, with an expanding user base across multiple countries and industries. Their cloud infrastructure ensures secure storage and direct publishing capabilities to major social media platforms.
+
+      Future development includes AI-enhanced editing capabilities, audio libraries, custom animation builders, and enterprise collaboration features. These expansions position Contario to become a comprehensive solution for the rapidly growing video content market, estimated to represent over 82% of all internet traffic by 2025.
+
+      This investment exemplifies our commitment to identifying and supporting innovative technologies that drive digital transformation, particularly those with scalable SaaS business models and global market potential.
+    direction: 'media-content'
+    largeMedia: false
+    border: 'shadow'
+    playButton: true
+    size: 's'
+    media:
+      autoplay: false
+      video:
+        controls: true
+        playButton: true
+        src:
+          - '/story-assets/20240211165722627-output.mp4'
+        loop:
+          start: 0
+    buttons:
+      - text: 'Learn More'
+        theme: 'raised'
+        url: '/projects/contario'
+
   - type: 'info-block'
     title: 'Strategic Focus Areas'
     sectionsTitle: 'Strategic Focus Areas'
     theme: 'light'
     leftContent:
       title: 'Strategic Focus Areas'
-      text: 'ICT maintains a strategic focus on Energy and Information Technology sectors, recognizing their critical importance to Kazakhstan economic development. Our expertise in these areas allows us to provide specialized support to partners operating in these domains.'
+      text: 'ICT maintains a strategic focus on Energy and Information Technology sectors, recognizing their critical importance to Kazakhstan economic development. Our expertise in these areas allows us to provide specialized support to partners operating in these domains. ICT is actively investing in the creation of Tech provider SaaS platforms for media production and social media management to drive digital innovation across industries.'
       buttons:
         - text: 'Energy Projects'
           theme: 'raised'
